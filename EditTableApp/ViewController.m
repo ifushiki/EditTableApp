@@ -14,7 +14,7 @@
 
 @implementation ViewController
 
-@synthesize tableView, tableController;
+@synthesize tableView, tableController, editButton;
 
 - (void)viewDidLoad
 {
@@ -34,7 +34,7 @@
 
 - (IBAction) editAction:(id)sender
 {
-    
+    [tableController updateEditMode:tableView withEditButton:editButton];
 }
 
 @end
