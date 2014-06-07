@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "../../CommonTable/DwTableController.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) DwTableController *tableController;
+@property (nonatomic, strong) IBOutlet UIButton *editButton;
+
+- (IBAction) editAction:(id)sender;
 
 @end

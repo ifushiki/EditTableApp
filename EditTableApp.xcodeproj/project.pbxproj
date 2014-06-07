@@ -22,6 +22,10 @@
 		6623D15B1942F0E300BBE094 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623D13A1942F0E300BBE094 /* UIKit.framework */; };
 		6623D1631942F0E300BBE094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1611942F0E300BBE094 /* InfoPlist.strings */; };
 		6623D1651942F0E300BBE094 /* EditTableAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623D1641942F0E300BBE094 /* EditTableAppTests.m */; };
+		6623D1751942F30B00BBE094 /* DwTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623D1701942F30B00BBE094 /* DwTableController.m */; };
+		6623D1761942F30B00BBE094 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1721942F30B00BBE094 /* calculator.png */; };
+		6623D1771942F30B00BBE094 /* iBooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1731942F30B00BBE094 /* iBooks.png */; };
+		6623D1781942F30B00BBE094 /* Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1741942F30B00BBE094 /* Phone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,11 @@
 		6623D1601942F0E300BBE094 /* EditTableAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EditTableAppTests-Info.plist"; sourceTree = "<group>"; };
 		6623D1621942F0E300BBE094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6623D1641942F0E300BBE094 /* EditTableAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTableAppTests.m; sourceTree = "<group>"; };
+		6623D16F1942F30B00BBE094 /* DwTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwTableController.h; sourceTree = "<group>"; };
+		6623D1701942F30B00BBE094 /* DwTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwTableController.m; sourceTree = "<group>"; };
+		6623D1721942F30B00BBE094 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		6623D1731942F30B00BBE094 /* iBooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iBooks.png; sourceTree = "<group>"; };
+		6623D1741942F30B00BBE094 /* Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +93,7 @@
 		6623D12A1942F0E300BBE094 = {
 			isa = PBXGroup;
 			children = (
+				6623D16E1942F30B00BBE094 /* CommonTable */,
 				6623D13C1942F0E300BBE094 /* EditTableApp */,
 				6623D15E1942F0E300BBE094 /* EditTableAppTests */,
 				6623D1351942F0E300BBE094 /* Frameworks */,
@@ -153,6 +163,27 @@
 				6623D1611942F0E300BBE094 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6623D16E1942F30B00BBE094 /* CommonTable */ = {
+			isa = PBXGroup;
+			children = (
+				6623D16F1942F30B00BBE094 /* DwTableController.h */,
+				6623D1701942F30B00BBE094 /* DwTableController.m */,
+				6623D1711942F30B00BBE094 /* Resources */,
+			);
+			name = CommonTable;
+			path = ../CommonTable;
+			sourceTree = "<group>";
+		};
+		6623D1711942F30B00BBE094 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6623D1721942F30B00BBE094 /* calculator.png */,
+				6623D1731942F30B00BBE094 /* iBooks.png */,
+				6623D1741942F30B00BBE094 /* Phone.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +265,10 @@
 				6623D14D1942F0E300BBE094 /* Main_iPad.storyboard in Resources */,
 				6623D1521942F0E300BBE094 /* Images.xcassets in Resources */,
 				6623D14A1942F0E300BBE094 /* Main_iPhone.storyboard in Resources */,
+				6623D1761942F30B00BBE094 /* calculator.png in Resources */,
+				6623D1771942F30B00BBE094 /* iBooks.png in Resources */,
 				6623D1411942F0E300BBE094 /* InfoPlist.strings in Resources */,
+				6623D1781942F30B00BBE094 /* Phone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6623D1501942F0E300BBE094 /* ViewController.m in Sources */,
+				6623D1751942F30B00BBE094 /* DwTableController.m in Sources */,
 				6623D1471942F0E300BBE094 /* AppDelegate.m in Sources */,
 				6623D1431942F0E300BBE094 /* main.m in Sources */,
 			);

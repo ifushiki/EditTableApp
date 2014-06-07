@@ -14,16 +14,27 @@
 
 @implementation ViewController
 
+@synthesize tableView, tableController;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    tableController = [[DwTableController alloc] initWithTableView:tableView];
+    if (tableController) {
+        [tableController createTableContents];
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction) editAction:(id)sender
+{
+    
 }
 
 @end
