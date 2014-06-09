@@ -37,4 +37,9 @@
     [tableController updateEditMode:tableView withEditButton:editButton];
 }
 
+// When NextViewController exits, unwindToTableView is called.
+- (IBAction) unwindToTableView:(UIStoryboardSegue *) segue
+{
+}
+
 @end

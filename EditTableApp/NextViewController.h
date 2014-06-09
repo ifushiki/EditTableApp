@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface NextViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *_cancelButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *_doneButton;
+
 
 @end

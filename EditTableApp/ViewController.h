@@ -16,5 +16,7 @@
 @property (nonatomic, strong) IBOutlet UIButton *editButton;
 
 - (IBAction) editAction:(id)sender;
+- (IBAction) unwindToTableView:(UIStoryboardSegue *) segue;
+
 
 @end

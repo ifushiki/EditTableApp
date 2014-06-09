@@ -14,6 +14,8 @@
 
 @implementation NextViewController
 
+@synthesize _cancelButton, _doneButton;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -34,5 +36,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+// Before the nativation controll bring back the previous view, prepareForSegue is called
+// to handle the necessary work.
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if (sender == _doneButton) {
+        // update the data
+    }
+    return;
+}
+
 
 @end
