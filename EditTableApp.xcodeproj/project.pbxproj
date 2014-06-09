@@ -26,6 +26,10 @@
 		6623D1761942F30B00BBE094 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1721942F30B00BBE094 /* calculator.png */; };
 		6623D1771942F30B00BBE094 /* iBooks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1731942F30B00BBE094 /* iBooks.png */; };
 		6623D1781942F30B00BBE094 /* Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1741942F30B00BBE094 /* Phone.png */; };
+		669414B3194501C00048E32E /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414B2194501C00048E32E /* Add.png */; };
+		669414B5194501CD0048E32E /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414B4194501CD0048E32E /* Delete.png */; };
+		669414B8194529CC0048E32E /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414B7194529CB0048E32E /* NextViewController.m */; };
+		669414D5194534F00048E32E /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414D4194534F00048E32E /* MyNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,12 @@
 		6623D1721942F30B00BBE094 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
 		6623D1731942F30B00BBE094 /* iBooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iBooks.png; sourceTree = "<group>"; };
 		6623D1741942F30B00BBE094 /* Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phone.png; sourceTree = "<group>"; };
+		669414B2194501C00048E32E /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		669414B4194501CD0048E32E /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		669414B6194529CB0048E32E /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		669414B7194529CB0048E32E /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		669414D3194534F00048E32E /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		669414D4194534F00048E32E /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,10 @@
 				6623D14F1942F0E300BBE094 /* ViewController.m */,
 				6623D1511942F0E300BBE094 /* Images.xcassets */,
 				6623D13D1942F0E300BBE094 /* Supporting Files */,
+				669414B6194529CB0048E32E /* NextViewController.h */,
+				669414B7194529CB0048E32E /* NextViewController.m */,
+				669414D3194534F00048E32E /* MyNavigationController.h */,
+				669414D4194534F00048E32E /* MyNavigationController.m */,
 			);
 			path = EditTableApp;
 			sourceTree = "<group>";
@@ -182,6 +196,8 @@
 				6623D1721942F30B00BBE094 /* calculator.png */,
 				6623D1731942F30B00BBE094 /* iBooks.png */,
 				6623D1741942F30B00BBE094 /* Phone.png */,
+				669414B2194501C00048E32E /* Add.png */,
+				669414B4194501CD0048E32E /* Delete.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -265,6 +281,8 @@
 				6623D14D1942F0E300BBE094 /* Main_iPad.storyboard in Resources */,
 				6623D1521942F0E300BBE094 /* Images.xcassets in Resources */,
 				6623D14A1942F0E300BBE094 /* Main_iPhone.storyboard in Resources */,
+				669414B5194501CD0048E32E /* Delete.png in Resources */,
+				669414B3194501C00048E32E /* Add.png in Resources */,
 				6623D1761942F30B00BBE094 /* calculator.png in Resources */,
 				6623D1771942F30B00BBE094 /* iBooks.png in Resources */,
 				6623D1411942F0E300BBE094 /* InfoPlist.strings in Resources */,
@@ -287,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669414B8194529CC0048E32E /* NextViewController.m in Sources */,
 				6623D1501942F0E300BBE094 /* ViewController.m in Sources */,
 				6623D1751942F30B00BBE094 /* DwTableController.m in Sources */,
+				669414D5194534F00048E32E /* MyNavigationController.m in Sources */,
 				6623D1471942F0E300BBE094 /* AppDelegate.m in Sources */,
 				6623D1431942F0E300BBE094 /* main.m in Sources */,
 			);
@@ -509,6 +529,7 @@
 				6623D16A1942F0E300BBE094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6623D16B1942F0E300BBE094 /* Build configuration list for PBXNativeTarget "EditTableAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +538,7 @@
 				6623D16D1942F0E300BBE094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
