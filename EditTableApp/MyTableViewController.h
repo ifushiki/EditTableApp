@@ -15,6 +15,7 @@
 @property (nonatomic, strong) DwTableController *tableController;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *addButton;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *deleteButton;
+@property (nonatomic, strong) IBOutlet UITableViewCell *tableViewCell;
 
 
 - (IBAction) editAction:(id)sender;

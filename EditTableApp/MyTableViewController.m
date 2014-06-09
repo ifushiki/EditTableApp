@@ -14,7 +14,7 @@
 
 @implementation MyTableViewController
 
-@synthesize tableView, tableController, addButton, deleteButton;
+@synthesize tableView, tableController, addButton, deleteButton, tableViewCell;
 
 - (void)viewDidLoad
 {
