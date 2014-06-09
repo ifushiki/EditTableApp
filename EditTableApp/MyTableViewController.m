@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MyTableViewController.m
 //  EditTableApp
 //
 //  Created by IKKO FUSHIKI on 6/7/14.
 //  Copyright (c) 2014 IKKO FUSHIKI. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyTableViewController.h"
 
-@interface ViewController ()
+@interface MyTableViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MyTableViewController
 
 @synthesize tableView, tableController, addButton, deleteButton;
 
@@ -35,7 +35,14 @@
 - (IBAction) editAction:(id)sender
 {
     if (sender == deleteButton) {
-        [tableController updateDeleteMode:tableView withBarButtonItem:deleteButton];
+        [tableController updateEditMode:tableView withBarButtonItem:deleteButton];
+        
+        if ([tableController isEditMode]) {
+            self.navigationItem.leftBarButtonItem = nil;
+        }
+        else {
+            self.navigationItem.leftBarButtonItem = addButton;
+        }
     }
 }
 

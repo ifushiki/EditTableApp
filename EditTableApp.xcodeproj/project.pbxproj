@@ -15,7 +15,7 @@
 		6623D1471942F0E300BBE094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623D1461942F0E300BBE094 /* AppDelegate.m */; };
 		6623D14A1942F0E300BBE094 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1481942F0E300BBE094 /* Main_iPhone.storyboard */; };
 		6623D14D1942F0E300BBE094 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6623D14B1942F0E300BBE094 /* Main_iPad.storyboard */; };
-		6623D1501942F0E300BBE094 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623D14F1942F0E300BBE094 /* ViewController.m */; };
+		6623D1501942F0E300BBE094 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623D14F1942F0E300BBE094 /* MyTableViewController.m */; };
 		6623D1521942F0E300BBE094 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6623D1511942F0E300BBE094 /* Images.xcassets */; };
 		6623D1591942F0E300BBE094 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623D1581942F0E300BBE094 /* XCTest.framework */; };
 		6623D15A1942F0E300BBE094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623D1361942F0E300BBE094 /* Foundation.framework */; };
@@ -57,8 +57,8 @@
 		6623D1461942F0E300BBE094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6623D1491942F0E300BBE094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6623D14C1942F0E300BBE094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6623D14E1942F0E300BBE094 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6623D14F1942F0E300BBE094 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6623D14E1942F0E300BBE094 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		6623D14F1942F0E300BBE094 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		6623D1511942F0E300BBE094 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6623D1571942F0E300BBE094 /* EditTableAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditTableAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6623D1581942F0E300BBE094 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -142,8 +142,8 @@
 				6623D1461942F0E300BBE094 /* AppDelegate.m */,
 				6623D1481942F0E300BBE094 /* Main_iPhone.storyboard */,
 				6623D14B1942F0E300BBE094 /* Main_iPad.storyboard */,
-				6623D14E1942F0E300BBE094 /* ViewController.h */,
-				6623D14F1942F0E300BBE094 /* ViewController.m */,
+				6623D14E1942F0E300BBE094 /* MyTableViewController.h */,
+				6623D14F1942F0E300BBE094 /* MyTableViewController.m */,
 				6623D1511942F0E300BBE094 /* Images.xcassets */,
 				6623D13D1942F0E300BBE094 /* Supporting Files */,
 				669414B6194529CB0048E32E /* NextViewController.h */,
@@ -314,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669414B8194529CC0048E32E /* NextViewController.m in Sources */,
-				6623D1501942F0E300BBE094 /* ViewController.m in Sources */,
+				6623D1501942F0E300BBE094 /* MyTableViewController.m in Sources */,
 				6623D1751942F30B00BBE094 /* DwTableController.m in Sources */,
 				669414D5194534F00048E32E /* MyNavigationController.m in Sources */,
 				6623D1471942F0E300BBE094 /* AppDelegate.m in Sources */,

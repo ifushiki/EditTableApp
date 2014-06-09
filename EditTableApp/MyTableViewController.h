@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyTableViewController.h
 //  EditTableApp
 //
 //  Created by IKKO FUSHIKI on 6/7/14.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "../../CommonTable/DwTableController.h"
 
-@interface ViewController : UIViewController
+@interface MyTableViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) DwTableController *tableController;
