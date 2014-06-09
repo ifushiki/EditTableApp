@@ -31,35 +31,29 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Add 36x36.png" translatesAutoresizingMaskIntoConstraints="NO" id="1db-ha-JeU">
+                                <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="L1l-hc-JF1">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="c2Y-t4-8qe">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" restorationIdentifier="AddButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tux-FJ-MVz">
-                                <rect key="frame" x="16" y="4" width="36" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button" image="Add.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pSr-I5-fy6" kind="push" id="JHK-MJ-eXJ"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="leftBarButtonItem" title="Add" width="36" style="plain" id="qBc-P8-XOK" userLabel="addButton">
+                            <inset key="imageInsets" minX="36" minY="0.0" maxX="36" maxY="0.0"/>
+                            <connections>
+                                <segue destination="pSr-I5-fy6" kind="push" id="olY-g0-jRV"/>
+                            </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="r9i-21-Ypy">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" restorationIdentifier="DeleteButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AbL-kZ-G1d">
-                                <rect key="frame" x="268" y="4" width="36" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button" image="Delete.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Delete" id="E0z-KB-HnF" userLabel="deleteButton">
+                            <connections>
+                                <action selector="editAction:" destination="vXZ-lx-hvc" id="ZFz-JL-iNL"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="qBc-P8-XOK" id="iOf-N0-UhO"/>
+                        <outlet property="deleteButton" destination="E0z-KB-HnF" id="IVq-cA-UM7"/>
                         <outlet property="tableView" destination="wXu-Cw-ZG2" id="ViM-Q5-LIy"/>
                     </connections>
                 </viewController>
@@ -119,8 +113,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Add.png" width="256" height="256"/>
-        <image name="Delete.png" width="256" height="256"/>
+        <image name="Add 36x36.png" width="36" height="36"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

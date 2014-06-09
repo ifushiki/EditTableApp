@@ -30,6 +30,8 @@
 		669414B5194501CD0048E32E /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414B4194501CD0048E32E /* Delete.png */; };
 		669414B8194529CC0048E32E /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414B7194529CB0048E32E /* NextViewController.m */; };
 		669414D5194534F00048E32E /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414D4194534F00048E32E /* MyNavigationController.m */; };
+		669414D81945D3870048E32E /* Add 36x36.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414D61945D3870048E32E /* Add 36x36.png */; };
+		669414D91945D3870048E32E /* Delete 36x36.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414D71945D3870048E32E /* Delete 36x36.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		669414B7194529CB0048E32E /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		669414D3194534F00048E32E /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
 		669414D4194534F00048E32E /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		669414D61945D3870048E32E /* Add 36x36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add 36x36.png"; sourceTree = "<group>"; };
+		669414D71945D3870048E32E /* Delete 36x36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete 36x36.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,8 @@
 		6623D1711942F30B00BBE094 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				669414D61945D3870048E32E /* Add 36x36.png */,
+				669414D71945D3870048E32E /* Delete 36x36.png */,
 				6623D1721942F30B00BBE094 /* calculator.png */,
 				6623D1731942F30B00BBE094 /* iBooks.png */,
 				6623D1741942F30B00BBE094 /* Phone.png */,
@@ -281,10 +287,12 @@
 				6623D14D1942F0E300BBE094 /* Main_iPad.storyboard in Resources */,
 				6623D1521942F0E300BBE094 /* Images.xcassets in Resources */,
 				6623D14A1942F0E300BBE094 /* Main_iPhone.storyboard in Resources */,
+				669414D81945D3870048E32E /* Add 36x36.png in Resources */,
 				669414B5194501CD0048E32E /* Delete.png in Resources */,
 				669414B3194501C00048E32E /* Add.png in Resources */,
 				6623D1761942F30B00BBE094 /* calculator.png in Resources */,
 				6623D1771942F30B00BBE094 /* iBooks.png in Resources */,
+				669414D91945D3870048E32E /* Delete 36x36.png in Resources */,
 				6623D1411942F0E300BBE094 /* InfoPlist.strings in Resources */,
 				6623D1781942F30B00BBE094 /* Phone.png in Resources */,
 			);

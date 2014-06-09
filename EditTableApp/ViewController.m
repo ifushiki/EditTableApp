@@ -14,7 +14,7 @@
 
 @implementation ViewController
 
-@synthesize tableView, tableController, editButton;
+@synthesize tableView, tableController, addButton, deleteButton;
 
 - (void)viewDidLoad
 {
@@ -34,7 +34,9 @@
 
 - (IBAction) editAction:(id)sender
 {
-    [tableController updateEditMode:tableView withEditButton:editButton];
+    if (sender == deleteButton) {
+        [tableController updateDeleteMode:tableView withBarButtonItem:deleteButton];
+    }
 }
 
 // When NextViewController exits, unwindToTableView is called.

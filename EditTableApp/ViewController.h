@@ -13,7 +13,9 @@
 
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) DwTableController *tableController;
-@property (nonatomic, strong) IBOutlet UIButton *editButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *addButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *deleteButton;
+
 
 - (IBAction) editAction:(id)sender;
 - (IBAction) unwindToTableView:(UIStoryboardSegue *) segue;
