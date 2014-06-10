@@ -7,6 +7,7 @@
 //
 
 #import "MyTableViewController.h"
+#import "MyTableController.h"
 
 @interface MyTableViewController ()
 
@@ -14,13 +15,13 @@
 
 @implementation MyTableViewController
 
-@synthesize tableView, tableController, addButton, deleteButton, tableViewCell;
+@synthesize tableView, addButton, deleteButton, tableViewCell, tableController;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    tableController = [[DwTableController alloc] initWithTableView:tableView];
+    tableController = [[MyTableController alloc] initWithTableView:tableView andViewController:self];
     if (tableController) {
         [tableController createTableContents];
     }
@@ -37,13 +38,19 @@
     if (sender == deleteButton) {
         [tableController updateEditMode:tableView withBarButtonItem:deleteButton];
         
-        if ([tableController isEditMode]) {
+//        if ([tableController isEditMode]) {
+        if (tableView.isEditing) {
             self.navigationItem.leftBarButtonItem = nil;
         }
         else {
             self.navigationItem.leftBarButtonItem = addButton;
         }
     }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+
 }
 
 // When NextViewController exits, unwindToTableView is called.

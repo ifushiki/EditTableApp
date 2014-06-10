@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "../../CommonTable/DwTableController.h"
+#import "MyTableController.h"
 
 @interface MyTableViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) DwTableController *tableController;
+@property (nonatomic, strong) MyTableController *tableController;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *addButton;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *deleteButton;
 @property (nonatomic, strong) IBOutlet UITableViewCell *tableViewCell;

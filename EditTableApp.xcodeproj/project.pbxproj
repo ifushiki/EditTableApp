@@ -32,6 +32,7 @@
 		669414D5194534F00048E32E /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414D4194534F00048E32E /* MyNavigationController.m */; };
 		669414D81945D3870048E32E /* Add 36x36.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414D61945D3870048E32E /* Add 36x36.png */; };
 		669414D91945D3870048E32E /* Delete 36x36.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414D71945D3870048E32E /* Delete 36x36.png */; };
+		669414DE194661490048E32E /* MyTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414DD194661490048E32E /* MyTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		669414D4194534F00048E32E /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 		669414D61945D3870048E32E /* Add 36x36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add 36x36.png"; sourceTree = "<group>"; };
 		669414D71945D3870048E32E /* Delete 36x36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete 36x36.png"; sourceTree = "<group>"; };
+		669414DC194661490048E32E /* MyTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableController.h; sourceTree = "<group>"; };
+		669414DD194661490048E32E /* MyTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				6623D1461942F0E300BBE094 /* AppDelegate.m */,
 				6623D1481942F0E300BBE094 /* Main_iPhone.storyboard */,
 				6623D14B1942F0E300BBE094 /* Main_iPad.storyboard */,
+				669414DC194661490048E32E /* MyTableController.h */,
+				669414DD194661490048E32E /* MyTableController.m */,
 				6623D14E1942F0E300BBE094 /* MyTableViewController.h */,
 				6623D14F1942F0E300BBE094 /* MyTableViewController.m */,
 				6623D1511942F0E300BBE094 /* Images.xcassets */,
@@ -317,6 +322,7 @@
 				6623D1501942F0E300BBE094 /* MyTableViewController.m in Sources */,
 				6623D1751942F30B00BBE094 /* DwTableController.m in Sources */,
 				669414D5194534F00048E32E /* MyNavigationController.m in Sources */,
+				669414DE194661490048E32E /* MyTableController.m in Sources */,
 				6623D1471942F0E300BBE094 /* AppDelegate.m in Sources */,
 				6623D1431942F0E300BBE094 /* main.m in Sources */,
 			);
