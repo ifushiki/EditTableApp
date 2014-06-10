@@ -38,7 +38,6 @@
     if (sender == deleteButton) {
         [tableController updateEditMode:tableView withBarButtonItem:deleteButton];
         
-//        if ([tableController isEditMode]) {
         if (tableView.isEditing) {
             self.navigationItem.leftBarButtonItem = nil;
         }
