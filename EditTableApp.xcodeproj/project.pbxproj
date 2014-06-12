@@ -33,6 +33,8 @@
 		669414D81945D3870048E32E /* Add 36x36.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414D61945D3870048E32E /* Add 36x36.png */; };
 		669414D91945D3870048E32E /* Delete 36x36.png in Resources */ = {isa = PBXBuildFile; fileRef = 669414D71945D3870048E32E /* Delete 36x36.png */; };
 		669414DE194661490048E32E /* MyTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669414DD194661490048E32E /* MyTableController.m */; };
+		669415721949617A0048E32E /* DwTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 669415711949617A0048E32E /* DwTableData.m */; };
+		66941575194980C70048E32E /* DwTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66941574194980C70048E32E /* DwTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,10 @@
 		669414D71945D3870048E32E /* Delete 36x36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete 36x36.png"; sourceTree = "<group>"; };
 		669414DC194661490048E32E /* MyTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableController.h; sourceTree = "<group>"; };
 		669414DD194661490048E32E /* MyTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableController.m; sourceTree = "<group>"; };
+		669415701949617A0048E32E /* DwTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwTableData.h; sourceTree = "<group>"; };
+		669415711949617A0048E32E /* DwTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwTableData.m; sourceTree = "<group>"; };
+		66941573194980C70048E32E /* DwTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwTableViewController.h; sourceTree = "<group>"; };
+		66941574194980C70048E32E /* DwTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +199,10 @@
 			children = (
 				6623D16F1942F30B00BBE094 /* DwTableController.h */,
 				6623D1701942F30B00BBE094 /* DwTableController.m */,
+				669415701949617A0048E32E /* DwTableData.h */,
+				669415711949617A0048E32E /* DwTableData.m */,
+				66941573194980C70048E32E /* DwTableViewController.h */,
+				66941574194980C70048E32E /* DwTableViewController.m */,
 				6623D1711942F30B00BBE094 /* Resources */,
 			);
 			name = CommonTable;
@@ -322,7 +332,9 @@
 				6623D1501942F0E300BBE094 /* MyTableViewController.m in Sources */,
 				6623D1751942F30B00BBE094 /* DwTableController.m in Sources */,
 				669414D5194534F00048E32E /* MyNavigationController.m in Sources */,
+				669415721949617A0048E32E /* DwTableData.m in Sources */,
 				669414DE194661490048E32E /* MyTableController.m in Sources */,
+				66941575194980C70048E32E /* DwTableViewController.m in Sources */,
 				6623D1471942F0E300BBE094 /* AppDelegate.m in Sources */,
 				6623D1431942F0E300BBE094 /* main.m in Sources */,
 			);
